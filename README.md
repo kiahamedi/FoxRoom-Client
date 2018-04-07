@@ -1,4 +1,4 @@
-# FoxRoom-Client
+# FoxRoom-AndroidClient
 Simple Android ChatRoom Client
 
 ![Alt text](https://raw.githubusercontent.com/kiahamedi/FoxRoom-Client/master/screen.png "Optional title")

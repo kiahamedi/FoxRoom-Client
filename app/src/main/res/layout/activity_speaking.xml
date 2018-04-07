@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_speaking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.kiahamedi.foxroom.Speaking">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tile_bg">
+
+        <ListView
+            android:id="@+id/list_view_messages"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:divider="@null"
+            android:transcriptMode="alwaysScroll"
+            android:stackFromBottom="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:id="@+id/llMsgCompose"
+            android:background="@color/white">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:id="@+id/inputMsg"
+                android:background="@color/bg_msg_input"
+                android:textColor="@color/txt_msg_input"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textSize="22sp"/>
+
+            <Button
+                android:background="@color/bg_btn_send"
+                android:text="@string/str_btn_send"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSend"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:onClick="onBtnSendClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

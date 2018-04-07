@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">فاکس روم</string>
+    <string name="str_txtLogo">FOX ROOM</string>
+    <string name="enter_name">نام خود را وارد کنید:</string>
+    <string name="btnJoinWel">بزن بریم</string>
+    <string name="name_error">لطفا نام خود را وارد کنید</string>
+    <string name="str_btn_send">ارسال</string>
+    <string name="strSplash">Fox Room</string>
+</resources>
